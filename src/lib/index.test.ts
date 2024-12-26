@@ -1,5 +1,5 @@
+import { helloWorld } from "@/lib/index.js";
 import { describe, expect, it } from "vitest";
-import { helloWorld } from "./index.js";
 
 describe("hello world", () => {
   it("should return hello world", () => {
